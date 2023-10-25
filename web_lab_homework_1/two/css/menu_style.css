@@ -1,16 +1,38 @@
-table {
-    width: 50%;
-    border-collapse: collapse;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #6091BA;
+
 }
 
-th, td {
-    width: 33%;
-    border: 2px solid #000000;
-} 
-
-
-.row1 {
-    background-color: #FFFF00; 
+ul li{
+  position:relative;
 }
 
+li a {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:1px solid silver;
+}
 
+li a:hover {
+    background-color: #3E6A8F;
+    color: white;
+}
+
+li:hover ul{
+    display:block;
+    background-color: #6091BA;
+}
+
+ul li ul{
+  position:absolute;
+  background-color: #3E6A8F;
+  left:200px;
+  top:0;
+  display:none;
+}
