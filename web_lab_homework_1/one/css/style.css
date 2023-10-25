@@ -1,0 +1,26 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 33%;
+    border: 2px solid #000000;
+}
+
+
+.row1 {
+    background-color: #FFFF00; 
+}
+
+.row2 {
+    background-color: #FF0000; 
+}
+
+.row3 {
+    background-color: #0000FF; 
+}
+
+.row4 {
+    background-color: #FF00FF; 
+}
