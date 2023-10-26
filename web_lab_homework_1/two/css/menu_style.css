@@ -19,7 +19,7 @@ li a {
     border:1px solid silver;
 }
 
-li a:hover {
+li:hover > a {
     background-color: #3E6A8F;
     color: white;
 }
